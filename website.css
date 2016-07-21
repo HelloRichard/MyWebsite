@@ -61,6 +61,10 @@
 			opacity: 0.90;
 		}
 
+		#intro {
+			float: left;
+		}
+
 		#profile {
 			margin-left: 50px;
 		}
@@ -117,6 +121,7 @@
 			text-align: justify;
 		}
 
+/* footer css starts */
 		footer {
 			background: #333333;
 			width: 100%;
