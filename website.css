@@ -61,12 +61,10 @@
 			opacity: 0.90;
 		}
 
-		#intro {
-			float: left;
-		}
-
 		#profile {
+			float: left;
 			margin-left: 50px;
+			padding: 50px;
 		}
 
 		#logo {
@@ -114,8 +112,8 @@
 			padding-bottom: 100px;
 		}
 
-		section {
-			width: 29%;
+		div section {
+			width: 23%;
 			float: left;
 			margin: 2% 2%;
 			text-align: justify;
