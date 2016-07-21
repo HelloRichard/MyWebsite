@@ -1,7 +1,5 @@
-* { /* select all elements */
+* {
 	margin: 0;
-	border: 0;
-	padding: 0;
 }
 /* basic selectors */
 body {
@@ -46,7 +44,7 @@ a:hover {
 	color: blue;
 	text-decoration: underline;
 }
-/* basic selectors ends and header begins*/
+/* basic selectors end and header begins*/
 header {
 	background: #405580;
 	width: 100%;
@@ -81,7 +79,8 @@ nav ul li {
 	list-style: none;
 	display: inline-block;
 	float: left;
-	padding: 0px 10px 10px 10px;
+	padding: 0px 10px 0px 10px;
+	margin-top: 0;
 }
 .home {
 	color: #FFF;
@@ -138,6 +137,7 @@ ul.social li {
 ul.social li img {
 	height: 50px;
 	padding-top: 10px;
+	text-align: center;
 }
 footer.copyright p{
 	border-top: 1px solid #4D4E50;
@@ -146,7 +146,18 @@ footer.copyright p{
 	text-align: center;
 	opacity: 0.95;
 }
-/*footer ends and media styling begins (for mobile devices)*/
+/*footer for myWebsite ends and contact begins */
+#message {
+	float: left;
+	padding: 50px;
+	margin: 50px;
+}
+#socialMedia {
+	float: right;
+	padding: 50px;
+	margin: 50px;
+}
+/*media styling begins (for mobile devices)*/
 @media screen and (max-width: 740px) {
 	body {
 		position: absolute;
